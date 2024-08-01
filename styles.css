@@ -1,0 +1,36 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart {
+  width: 250px;
+  height: 400px;
+  background-color: hsl(0, 0%, 100%);
+
+  border-radius: 10px;
+}
+.cart img {
+  transform-origin: center;
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  border-radius: 10px;
+  transform: translateX(12px) translateY(10px); /* transform (margin didnt work for me )*/
+}
+h1 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 15px;
+  transform: translateX(12px) translateY(10px);
+  color: black;
+}
+p {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 15px;
+  color: grey;
+}
